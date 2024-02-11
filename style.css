@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Protest Riot', sans-serif;
+}
+.min-h-screen{
+    min-height:100vh;
+}
+.bg-red{
+    background-color:red;
+}
+.container{
+    max-width: 80vw;
+    margin:0 auto;
+}
+.flex{
+    display:flex;
+}
+.items-center{
+    align-items: center;
+}
+.contents-center{
+    align-content:center;
+}
+.justify-between{
+    justify-content:space-between;
+}
+.justify-center{
+    justify-content:center;
+}
+
+.navbar>li{
+    list-style: none;
+    margin:0 12px;
+}
+.logo{
+    /* font-weight:bolder; */
+    color:yellow;
+    box-shadow:2px 2px 10px grey;
+    margin: 0px 10px;
+    
+}
+.nav{
+    height:64px;
+}
+li{
+    text-transform:uppercase;
+}
+.top-left{
+    width:50%;
+    height:50vh;
+    
+}
+.top-left p{
+    font-size:1rem;
+}
+.top-right{
+    width:50%;
+    height:50vh;
+    display:flex;
+    
+    justify-content:center;
+}
+.section1{
+    height:50vh;
+}
+.flex-horizontal{
+    flex-direction:column;
+}
+.my-1{
+    margin:1rem 0 1.5rem 0;
+}
+.my-2{
+    margin-top:64px;
+}
+.px-2{
+    padding:0 1rem;
+}
+.btn{
+    padding:4px 12px;
+    border:2px solid black;
+    color:yellow;
+    background-color:red;
+    border-radius:5px;
+    cursor:pointer;
+}
+.img{
+    height:4rem;
+    width:4rem;
+    margin:1rem 0;
+
+}
+.text-center{
+    text-align:center;
+}
+.box{
+    height:18rem;
+    width:15rem;
+    border:2px solid black;
+    border-radius:7px;
+}
+.boxes{
+    justify-content:space-around;
+    
+}
+.insidediv1{
+    height:12%;
+    font-size: 2rem;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(205, 230, 63, 0.959);
+}
+.insidediv2{
+    height:70%;
+    font-size: 1.5rem;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    line-height:1.5rem;
+    
+}
+.btninsidebox{
+    margin:0rem 1rem 2rem 1rem;
+    border:2px solid black; 
+    width:80%;
+    height:60%;
+    padding:0.5rem 1.2rem;
+    font-size: 1.1rem;
+    border-radius:7px;
+    background-color: rgba(205, 230, 63, 0.959);
+
+}
+.insidediv3{
+    display:flex;
+    justify-content:space-around;
+}
+p{
+    font-size: 2rem;
+    margin-bottom:1rem;
+}
+.table-design{
+    border:2px solid black;
+    width:60vw;
+    text-align:center;
+
+}
+.font-size{
+    font-size:2rem;
+}
+.border-bottom{
+    border-bottom:2px solid black;    
+}
+.sticky{
+    position:fixed;
+}
